@@ -1,8 +1,10 @@
 body {
   margin: 0 auto;
+  width: 1440px;
 }
 .header {
   display: flex;
+  margin-top: 30px;
   justify-content: space-between;
 }
 
