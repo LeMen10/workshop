@@ -1,0 +1,18 @@
+body {
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ex01 {
+  background-color: brown;
+  color: #fff;
+  transition: all 0.3 ease-in-out;
+}
+
+.ex01:hover {
+  color: brown;
+  background-color: #fff;
+}
