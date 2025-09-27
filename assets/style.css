@@ -16,6 +16,6 @@ body {
 }
 
 .ex01:hover {
-  color: brown;
-  background-color: #fff;
+  background-color: rgb(138, 33, 33);
+  color: #fff;
 }
