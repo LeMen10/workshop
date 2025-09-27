@@ -1,0 +1,73 @@
+body {
+  margin: 0 auto;
+  width: 1140px;
+}
+.header {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.ex01 {
+  background-color: brown;
+  color: #fff;
+  transition: all 0.3 ease-in-out;
+  padding: 12px 20px;
+}
+
+.ex01:hover {
+  background-color: rgb(138, 33, 33);
+  color: #fff;
+}
+
+section {
+  background: #f9f9f9;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+ul {
+  padding-left: 20px;
+}
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2980b9;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.navBar div {
+  padding: 8px 18px;
+  background: #ecf0f1;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.navBar div:hover {
+  background: #2980b9;
+  color: #fff;
+}
